@@ -38,4 +38,17 @@ ul li {
 	font-weight: bold;
 	font-size: 30px;
 	margin: 5px 10px;
+	text-align: center;
+}
+
+ul li span.icon {
+	position: relative;
+	display: block;	
+}
+
+ul li::before {
+	position: absolute;
+	top: 20px;
+	left: 50px;
+
 }
