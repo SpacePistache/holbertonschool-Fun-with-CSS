@@ -1,0 +1,28 @@
+.icon {
+	background: url("images/0-sprite.png") no-repeat;
+	background-position: center;
+	display: inline-block;
+	height: 380px;
+	width: 280px;
+	margin: 0;
+	padding: 0;
+	border-radius: 8px;
+	border-style: solid;
+	border-color: gray; 
+}
+
+.icon.i-html {
+	background-position: 0px 0px;
+}
+
+.icon.i-css {
+	background-position: -290px -0px;
+}
+
+.icon.i-js {
+	background-position: -580px 0px;
+}
+
+li {
+	display: inline-block;
+}
