@@ -1,7 +1,7 @@
 .icon {
 	background: url("images/0-sprite.png") no-repeat;
 	background-position: center;
-	display: inline-block;
+	display: block;
 	padding: 0;
 	margin: 0;
 	height: 380px;
@@ -9,7 +9,6 @@
 	border-radius: 8px;
 	border-style: solid;
 	border-color: gray;
-	
 }
 
 .icon.i-html {
@@ -17,7 +16,7 @@
 }
 
 .icon.i-css {
-	background-position: -290px -0px;
+	background-position: -290px 0px;
 }
 
 .icon.i-js {
@@ -26,13 +25,13 @@
 
 ul {
 	list-style: none;
+	display: flex;
 	justify-content: center;
 	gap: 40px;
 	padding: 0;
 }
 
 ul li {
-	position: relative;
 	display: inline-block;
 	vertical-align: top	;
 	font-weight: bold;
@@ -42,13 +41,7 @@ ul li {
 }
 
 ul li span.icon {
+
 	position: relative;
 	display: block;	
-}
-
-ul li::before {
-	position: absolute;
-	top: 20px;
-	left: 50px;
-
 }
