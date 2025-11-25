@@ -2,9 +2,7 @@
 	background: url("images/0-sprite.png") no-repeat;
 	background-position: center;
 	display: block;
-	padding: 0;
-	margin: 0;
-	height: 380px;
+	height: 450px;
 	width: 280px;
 	border-radius: 8px;
 	border-style: solid;
@@ -12,15 +10,15 @@
 }
 
 .icon.i-html {
-	background-position: 0px 0px;
+	background-position: 0px 65px;
 }
 
 .icon.i-css {
-	background-position: -290px 0px;
+	background-position: -290px 60px;
 }
 
 .icon.i-js {
-	background-position: -580px 0px;
+	background-position: -580px 60px;
 }
 
 ul {
@@ -32,16 +30,22 @@ ul {
 }
 
 ul li {
-	display: inline-block;
-	vertical-align: top	;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 	font-weight: bold;
 	font-size: 30px;
-	margin: 5px 10px;
 	text-align: center;
 }
 
 ul li span.icon {
+	margin-top: 10px;
+}
 
-	position: relative;
-	display: block;	
+ul li {
+	margin-top: 40px;
+}
+
+ul li span.icon {
+	margin-top: -40px;
 }
